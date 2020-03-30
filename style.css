@@ -41,10 +41,10 @@ ul li a:hover {
     transition: 0.6s ease;
 }
 
-ul li.active a {
+/* ul li.active a {
     background-color: #fff;
-    color: #000;
-}
+    color: #000; */
+
 
 .logo img {
     float: left;
@@ -65,14 +65,15 @@ ul li.active a {
     transform: translate(-50%, -50%);
 }
 
-.title h1 {
+.title h4 {
     color: white;
     font-size: 50px;
+    font-size: 40px;
 }
 
 .button {
     position: fixed;
-    top: 120%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
